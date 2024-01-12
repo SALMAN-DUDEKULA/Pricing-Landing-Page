@@ -239,10 +239,10 @@ html {
 }
 
 
-
-        
+  
 #section07 a {
     padding-top: 80px;
+    
   }
   #section07 a span {
     position: absolute;
@@ -251,7 +251,7 @@ html {
     width: 24px;
     height: 24px;
     margin-left: -12px;
-    border-left: 1px solid #fff;
+    border-left: 1px solid green;
     border-bottom: 1px solid #fff;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
@@ -298,3 +298,19 @@ html {
       opacity: 0;
     }
   }
+
+/* Media query for smaller screens */
+
+@media (max-width: 780px) {
+    #section07 a {
+        padding-top: 40px; /* Adjust padding for smaller screens */
+    }
+
+    #section07 a span {
+        width: 16px;
+        height: 16px;
+        margin-left: -8px;
+        margin-top: 650px;
+    }
+}
+
